@@ -10,3 +10,4 @@ soup= BeautifulSoup(page.content, 'html.parser')
 #title= soup.find_all('div', class_= 'emproduct_right')
 containers= soup.find_all('div', {'class':'emproduct clear listitemline emsmoothhover2'})
 print(containers[0])
+#gitdemo
